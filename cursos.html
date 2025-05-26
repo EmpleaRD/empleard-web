@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cursos Disponibles – EmpleaRD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    .banner {
+      background-image: url('https://source.unsplash.com/1600x400/?education,learning'); /* Puedes cambiar la imagen */
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .banner h1 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #007bff;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Cursos y Capacitaciones</h1>
+  </div>
+
+  <div class="container">
+    <h2>Cursos Disponibles</h2>
+
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x250?text=Curso+1" alt="Curso 1">
+      <img src="https://via.placeholder.com/400x250?text=Curso+2" alt="Curso 2">
+      <img src="https://via.placeholder.com/400x250?text=Curso+3" alt="Curso 3">
+      <!-- Agrega más imágenes aquí -->
+    </div>
+  </div>
+
+</body>
+</html>
